@@ -38,8 +38,6 @@ HOST="${MINIO_ENDPOINT#http://}"
 HOST="${HOST#https://}"
 HOST="${HOST%/}"
 
-#echo " ${ID_TOKEN}  ${DURATION}  ${ROLE_ARN}"
-
 # --- Step 1: STS exchange (POST) ---
 echo "→ Requesting STS credentials from MinIO..."
 
