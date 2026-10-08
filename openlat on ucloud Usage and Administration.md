@@ -237,6 +237,7 @@ mc admin user disable ucloud <name>
 mc admin user enable ucloud <name>
 
 # reset a password (overwrites the secret; check policies and groups afterwards)
+# (Note: Every user can change his own password)
 mc admin user add ucloud <name> '<new password>'
 ```
 
